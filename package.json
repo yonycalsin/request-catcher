@@ -1,0 +1,15 @@
+{
+  "name": "@yonycalsin/request-catcher",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "Yony Calsin",
+  "license": "ISC",
+  "volta": {
+    "node": "18.15.0"
+  }
+}
