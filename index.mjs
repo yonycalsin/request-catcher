@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 5000;
 
 const server = http.createServer(async (req, res) => {
   const info = {
-    url: req.url,
+    url: decodeURIComponent(req.url),
     method: req.method,
     headers: req.headers,
     body: req.body
